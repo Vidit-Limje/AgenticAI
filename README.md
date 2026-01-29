@@ -64,3 +64,71 @@ The system consists of the following cooperative agents:
    Synthesizes all agent outputs into a structured professional report.
    
 
+
+---
+
+## 🛠️ Technology Stack
+
+- **Language**: Python  
+- **Agent Framework**: LangGraph  
+- **LLM Orchestration**: LangChain  
+- **Model**: Mistral-7B-Instruct-v0.2  
+- **Inference**: Hugging Face Transformers  
+- **Optimization**: BitsAndBytes (4-bit quantization)  
+- **Environment**: Google Colab  
+
+---
+
+## 📓 Notebook Structure
+
+The Jupyter Notebook is organized into clearly defined sections:
+
+1. Dependency installation  
+2. Library imports  
+3. LLM loading and optimization  
+4. Text generation pipeline setup  
+5. Shared agent state definition  
+6. Individual agent implementations  
+7. LangGraph workflow construction  
+8. Execution and final report generation  
+
+Each section is thoroughly commented and documented for clarity and maintainability.
+
+---
+
+## ▶️ How to Run (Google Colab)
+
+1. Open **Google Colab**
+2. Upload the `.ipynb` notebook from this repository
+3. Set runtime type to **GPU**
+4. Run all cells sequentially
+5. View the final advisory report in the output cell
+
+> ⚠️ First execution may take a few minutes to download the model.
+
+---
+
+## 📥 Example Input
+
+```python
+{
+    "risk_profile": "Moderate",
+    "investment_horizon": "Short and Long Term"
+}
+
+
+Executive Summary
+The investor demonstrates a moderate risk appetite...
+
+Key Market Insights
+Market conditions indicate moderate volatility...
+
+Short-Term Recommendations
+Focus on liquid and low-risk instruments...
+
+Long-Term Recommendations
+Allocate to diversified equity-oriented assets...
+
+Risk & Diversification Notes
+Balanced diversification helps mitigate downside risk...
+
