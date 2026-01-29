@@ -16,11 +16,6 @@ The system demonstrates how multiple specialized AI agents can collaborate throu
 - [Notebook Structure](#-notebook-structure)
 - [How to Run (Google Colab)](#️-how-to-run-google-colab)
 - [Example Input & Output](#-example-input--output)
-- [Design Decisions](#-design-decisions)
-- [Limitations](#️-limitations)
-- [Future Enhancements](#-future-enhancements)
-- [Disclaimer](#-disclaimer)
-
 ---
 
 ## 🔍 Project Overview
